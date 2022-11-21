@@ -12,19 +12,19 @@ btn.onclick=function logn() {
         psw.style.border='2px solid red'
     }
     else{
-        psw.style.border=`2px solid #ebebeb`
+        psw.style.border=`2px solid #7fff00`
     }
     if (!upper.test(usr.value)) {
         usr.style.border='2px solid red'
     }
     else{
-        usr.style.border=`2px solid #ebebeb`
+        usr.style.border=`2px solid #7fff00`
     }
     if (!regexemail.test(email.value)) {
         email.style.border='2px solid red'
     }
     else{
-        email.style.border=`2px solid #ebebeb`
+        email.style.border=`2px solid #7fff00`
     }
     setTimeout(() => {
         if (regex.test(psw.value)&&upper.test(usr.value)&&regexemail.test(email.value)) {
